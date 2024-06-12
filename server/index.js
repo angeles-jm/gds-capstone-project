@@ -15,7 +15,7 @@ app.use("/api/auth", authRouter);
 // 3) MongoDB Connection
 mongoose
   .connect("mongodb://localhost:27017/authentication")
-  .then(() => console.log("Connected to MongoDB"))
+  .then(() => console.log("Connected to MongoDB :)"))
   .catch((err) => console.error(`Failed to connect to MongoDB ${err}`));
 
 // 4) Global error handle
